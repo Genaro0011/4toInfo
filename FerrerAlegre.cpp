@@ -31,14 +31,14 @@ int y = vector_resultante[1];
       
 
         if (x < 0 && y < 0 ){
-            cout << "El vector pertenece al cuadrante 3"<< endl;
+            cout << "El vector pertenece al cuadrante: 3"<< endl;
         }else if (x > 0 && y > 0){
-            cout << "El vector pertenece al cuadrante 1" << endl;
+            cout << "El vector pertenece al cuadrante: 1" << endl;
 
         }else if (x > 0 && y < 0){
-            cout << "El vector al cuadrante 4" << endl;
+            cout << "El vector al cuadrante: 4" << endl;
         }else if ( x < 0 && y > 0 ){
-          cout << "El vector pertenece al cuadrante 2" << endl;
+          cout << "El vector pertenece al cuadrante: 2" << endl;
         }
     }
 
